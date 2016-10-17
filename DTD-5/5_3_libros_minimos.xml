@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libros  SYSTEM "5_3.dtd">
+
+<libros>
+  <Libro isbn="peri"  fecha="3/4/02" paginas="234" >
+    <Titulo> Pinocho</Titulo>
+    <Categoria>Infantil</Categoria>
+    <Precio moneda="eur"> 23</Precio>
+  </Libro>
+  <Libro isbn="poo"  fecha="3/5/05" paginas="254" >
+    <Titulo>Roboto</Titulo>
+    <Categoria>Infantil</Categoria>
+    <Precio moneda="dol"> 23</Precio>
+  </Libro>
+</libros>

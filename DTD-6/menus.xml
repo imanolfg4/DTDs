@@ -1,4 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE menus [
+<!ELEMENT menus (menu)+>
+<!ELEMENT menu (comida , bebida)>
+<!ELEMENT bebida (#PCDATA|opcion)*>
+<!ELEMENT comida (primero+ , segundo+ , postre+)>
+<!ELEMENT primero (#PCDATA|opcion)*>
+<!ELEMENT segundo (#PCDATA|opcion)*>
+<!ELEMENT postre (#PCDATA|opcion)*>
+<!ELEMENT opcion EMPTY>
+<!ATTLIST bebida tamanyo CDATA #REQUIRED>
+<!ATTLIST menu precio CDATA #REQUIRED>
+<!ATTLIST menu tarjeta CDATA #IMPLIED>
+<!ATTLIST opcion tipo NMTOKEN #REQUIRED>
+]>
 <menus>
   <menu precio="10" tarjeta="no">
     <comida>

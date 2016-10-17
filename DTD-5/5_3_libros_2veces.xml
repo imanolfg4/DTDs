@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libros  SYSTEM "5_3.dtd">
+  <libros>
+  <Libro isbn="peri" nivel="medio" fecha="3/4/02" paginas="234" autor="Perico Palotes" editor="Pepe Ro">
+  <Titulo> Pinocho</Titulo>
+  <Comentarios>Niño de madera magico </Comentarios>
+  <Categoria>Infantil</Categoria>
+  <Categoria>Fantasia</Categoria>
+  <Precio moneda="eur"> 23</Precio>
+  </Libro>
+  <Libro isbn="poo" nivel="bajo" fecha="3/5/05" paginas="254" autor="Poo" editor="Rabbit">
+  <Titulo>Roboto</Titulo>
+  <Comentarios>Niño robot </Comentarios>
+  <Categoria>Infantil</Categoria>
+  <Categoria>Fantasia</Categoria>
+  <Precio moneda="dol"> 23</Precio>
+  </Libro>
+  </libros>
